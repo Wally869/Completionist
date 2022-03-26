@@ -2,7 +2,10 @@
 
 % requires the world to be defined by a set of locations.  
 % location/3
-% location(name, items at location, required items)
+% location(name, items at location, required items)  
+
+% could also define contains/2 and requires/2  
+% location(Name, ItemsContained, ItemsRequired) :- contains(Name, ItemsContained), requires(Name, ItemsRequired).
 
 can_visit(Node, Equipment) :-
     location(Node, _, REQUIRED),
