@@ -1,4 +1,4 @@
-$$# Completionist  
+# Completionist  
 
 Inspired by the development of Randomizers for retro games (Legend of Zelda, Metroid...). 
 
